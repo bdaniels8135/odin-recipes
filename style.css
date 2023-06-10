@@ -20,10 +20,6 @@ h1.page-title {
     padding: 8px;
 }
 
-.recipe-list ol li a {
-    border: 2px solid black;
-}
-
 img,
 .recipe-description,
 .recipe-header,
@@ -34,13 +30,48 @@ img,
     padding: 8px;
 }
 
+.recipe-list ol li a {
+    text-decoration: none;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
 .recipe-header .page-title {
     margin: 0 auto;
+}
+
+.recipe-description h2 {
+    margin-top: 30px;
 }
 
 .recipe-description {
     display: inline-block;
     vertical-align: top;
-    width: 700px;
+    width: 50%;
 }
 
+.recipe-ingredients,
+.recipe-steps {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recipe-ingredients {
+    width: 30%;
+}
+
+.recipe-steps {
+    width: 50%;
+}
+
+.index-link {
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+}
